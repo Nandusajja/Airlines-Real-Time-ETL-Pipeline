@@ -1,0 +1,14 @@
+{
+  "source": ["aws.s3"],
+  "detail-type": ["Object Created"],
+  "detail": {
+    "bucket": {
+      "name": ["nandu-s3-airline"]
+    },
+    "object": {
+      "key": [{
+        "suffix": ".csv"
+      }]
+    }
+  }
+}
